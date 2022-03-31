@@ -52,12 +52,30 @@ end
 ```
 
 # Tập tin main.h
-Chứa danh sách các bài tập, mỗi bài tập gồm phương trình vi phân `pde` và nghiệm chính xác `fex`, cụ thể:
+Chứa danh sách các bài tập, mỗi bài tập gồm phương trình vi phân `fde` và nghiệm chính xác `fex`, cụ thể:
 * Ví dụ mẫu (số lượng 1),
 * 4 bài tập ở trang slide 52, gồm (1), (2), (3) và (4),
 * 4 bài tập ở trang slide 57, gồm (a), (b), (c) và (d),
 * 3 bài tập ở trang slide 62, gồm (a), (b) và (c),
 * 2 bài tập ở trang slide 67, gồm (a) và (b).
+
+Code cho ví dụ mẫu
+```
+clc
+clear all
+close all
+
+syms x f y
+
+fde = @(x, y) x * (1 + x.^2) / (y.^2);
+fex = @(x) (3 * (x.^2) / 2 + 3 * x.^4 /4 + 1) .^ (1/3);
+a = 0;
+b = 6;
+h = 0.5;
+y0 = 1;
+
+test(a, b, y0, h, fde, fex);
+```
 
 # Các đồ thị trong bài tập
 ## Ví dụ mẫu
