@@ -77,6 +77,18 @@ y0 = 1;
 test(a, b, y0, h, fde, fex);
 ```
 
+Code cho bài 1 slide 52
+```
+fde = @(x, y) 1 ./ (x - y) + 1;
+fex = @(x) (1 - 2*x) .^ (1/2) + x;
+a = 0;
+b = 0.4;
+h = 0.03;
+y0 = 1;
+
+test(a, b, y0, h, fde, fex);
+```
+
 # Các đồ thị trong bài tập
 ## Ví dụ mẫu
 
