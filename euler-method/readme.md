@@ -2,13 +2,13 @@
 Hàm `euler` thực hiện giải thuật Euler để tìm nghiệm xấp xỉ của phương trình vi phân.
 
 Trong đó, các input của hàm `euler`:
-* `a`, `b`: Khoảng $(a,b)$, các nghiệm xấp xỉ của phương trình sẽ nằm trong khoảng $(a,b)$ này,
-* `y0`: Điều kiện ban đầu $y(0) = y_0$,
-* `h`: Khoảng cách giữa hai nghiệm liên tiếp $x_n$ và $x_{n+1}$, với $n=\overline{0,N}$,
-* `f`: hàm $f$ trong phương trình $y' = f(x,y)$.
+* `a`, `b`: Khoảng `(a,b)`, các nghiệm xấp xỉ của phương trình sẽ nằm trong khoảng `(a,b)` này,
+* `y0`: Điều kiện ban đầu `y(0) = y_0`,
+* `h`: Khoảng cách giữa hai nghiệm liên tiếp `x_n` và `x_{n+1}`, với `n=0,...,N`,
+* `f`: hàm `f` trong phương trình `y' = f(x,y)`.
 
 Output của hàm `euler`:
-* `x`: kiểu vector. các giá trị phân bố điều trong khoảng $(a,b)$, hai giá trị liên tiếp cách nhau `h` đơn vị,
+* `x`: kiểu vector. các giá trị phân bố điều trong khoảng `(a,b)`, hai giá trị liên tiếp cách nhau `h` đơn vị,
 * `y`: kiểu vector, có cùng số phần tử với vector `x`. Giá trị `y(i)` là giá trị của hàm `y(x)` tại điểm `x(i)`.
 ```
 function [x, y] = euler(a, b, y0, h, f)
@@ -31,10 +31,10 @@ end
 Vẽ đồ thị của nghiệm xấp xỉ và nghiệm chính xác.
 
 Input:
-* `a`, `b`: Khoảng $(a,b)$,
-* `y0`: Điều kiện ban đầu $y(0) = y_0$,
+* `a`, `b`: Khoảng `(a,b)`,
+* `y0`: Điều kiện ban đầu `y(0) = y_0`,
 * `h`: Khoảng cách hai nghiệm `x` liên tiếp,
-* `fde`: Hàm $f$ trong phương trình $y' = f(x,y)$,
+* `fde`: Hàm `f` trong phương trình `y' = f(x,y)`,
 * `fex`: Nghiệm chính xác của phương trình vi phân.
 ```
 function [] = test(a, b, y0, h, fde, fex)
