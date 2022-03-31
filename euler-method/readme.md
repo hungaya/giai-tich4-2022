@@ -75,24 +75,39 @@ Câu 4
 
 ## Bài tập slide 57
 Câu a
+
 ![57-1](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-57-a.png)
+
 Câu b
+
 ![57-2](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-57-b.png)
+
 Câu c
+
 ![57-3](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-57-c.png)
+
 Câu d
+
 ![57-4](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-57-d.png)
 
 ## Bài tập slide 62
 Câu a
+
 ![62-a](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-62-a.png)
+
 Câu b
+
 ![62-b](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-62-b.png)
+
 Câu c
+
 ![62-c](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-62-c.png)
 
 ## Bài tập slide 67
 Câu a
+
 ![67-a](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-67-a.png)
+
 Câu b
+
 ![67-b](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-67-b.png)
