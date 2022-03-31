@@ -1,4 +1,4 @@
-# Phương pháp Euler
+# Phương pháp Euler (tập tin euler.m)
 Hàm `euler` thực hiện giải thuật Euler để tìm nghiệm xấp xỉ của phương trình vi phân.
 
 Trong đó, các input của hàm `euler`:
