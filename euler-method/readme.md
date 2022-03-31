@@ -61,16 +61,25 @@ Chứa danh sách các bài tập, mỗi bài tập gồm phương trình vi ph�
 
 # Các đồ thị trong bài tập
 ## Ví dụ mẫu
+
 [sample](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/sample.png)
 
 ## Bài tập slide 52
+
 Câu 1
+
 ![52-1](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-52-1.png)
+
 Câu 2
+
 ![52-2](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-52-2.png)
+
 Câu 3
+
 ![52-3](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-52-3.png)
+
 Câu 4
+
 ![52-4](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-52-4.png)
 
 ## Bài tập slide 57
