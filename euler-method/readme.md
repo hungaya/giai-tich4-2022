@@ -51,7 +51,7 @@ function [] = test(a, b, y0, h, fde, fex)
 end
 ```
 
-# Tập tin main.h
+# Tập tin main.m
 Chứa danh sách các bài tập, mỗi bài tập gồm phương trình vi phân `fde` và nghiệm chính xác `fex`, cụ thể:
 * Ví dụ mẫu (số lượng 1),
 * 4 bài tập ở trang slide 52, gồm (1), (2), (3) và (4),
