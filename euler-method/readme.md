@@ -92,7 +92,7 @@ test(a, b, y0, h, fde, fex);
 # Các đồ thị trong bài tập
 ## Ví dụ mẫu
 
-[sample](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/sample.png)
+![sample](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/sample.png)
 
 ## Bài tập slide 52
 
