@@ -10,7 +10,7 @@ Trong đó, các input của hàm `euler`:
 Output của hàm `euler`:
 * `x`: kiểu vector. các giá trị phân bố điều trong khoảng `(a,b)`, hai giá trị liên tiếp cách nhau `h` đơn vị,
 * `y`: kiểu vector, có cùng số phần tử với vector `x`. Giá trị `y(i)` là giá trị của hàm `y(x)` tại điểm `x(i)`.
-```
+```matlab
 function [x, y] = euler(a, b, y0, h, f)
   N = round((b - a) / h);
   
@@ -36,7 +36,7 @@ Input:
 * `h`: Khoảng cách hai nghiệm `x` liên tiếp,
 * `fde`: Hàm `f` trong phương trình `y' = f(x,y)`,
 * `fex`: Nghiệm chính xác của phương trình vi phân.
-```
+```matlab
 function [] = test(a, b, y0, h, fde, fex)
   [x, yap] = euler(a, b, y0, h, fde);
   yex = fex(x);
@@ -60,7 +60,7 @@ Chứa danh sách các bài tập, mỗi bài tập gồm phương trình vi ph�
 * 2 bài tập ở trang slide 67, gồm (a) và (b).
 
 Code cho ví dụ mẫu
-```
+```matlab
 clc
 clear all
 close all
@@ -78,7 +78,7 @@ test(a, b, y0, h, fde, fex);
 ```
 
 Code cho bài 1 slide 52
-```
+```matlab
 fde = @(x, y) 1 ./ (x - y) + 1;
 fex = @(x) (1 - 2*x) .^ (1/2) + x;
 a = 0;
