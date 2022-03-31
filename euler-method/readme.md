@@ -58,3 +58,41 @@ Chứa danh sách các bài tập, mỗi bài tập gồm phương trình vi ph�
 * 4 bài tập ở trang slide 57, gồm (a), (b), (c) và (d),
 * 3 bài tập ở trang slide 62, gồm (a), (b) và (c),
 * 2 bài tập ở trang slide 67, gồm (a) và (b).
+
+# Các đồ thị trong bài tập
+## Ví dụ mẫu
+[sample](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/sample.png)
+
+## Bài tập slide 52
+Câu 1
+[52-1](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-52-1.png)
+Câu 2
+[52-2](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-52-2.png)
+Câu 3
+[52-3](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-52-3.png)
+Câu 4
+[52-4](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-52-4.png)
+
+## Bài tập slide 57
+Câu a
+[57-1](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-57-a.png)
+Câu b
+[57-2](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-57-b.png)
+Câu c
+[57-3](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-57-c.png)
+Câu d
+[57-4](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-57-d.png)
+
+## Bài tập slide 62
+Câu a
+[62-a](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-62-a.png)
+Câu b
+[62-b](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-62-b.png)
+Câu c
+[62-c](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-62-c.png)
+
+## Bài tập slide 67
+Câu a
+[67-a](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-67-a.png)
+Câu b
+[67-b](https://github.com/hungaya/giai-tich4-2022/blob/main/euler-method/img/slide-67-b.png)
