@@ -8,5 +8,6 @@ function [] = test(a, b, y0, h, fde, fex)
     plot(x, yap, 'b');
     legend('y_{ex}', 'y_{ap}')
     xlabel('x'); ylabel('y(x)');
+    title('Do thi nghiem xap xi va nghiem chinh xac');
   hold off
 end
